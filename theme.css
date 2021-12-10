@@ -1,0 +1,131 @@
+/* ==UserStyle==
+@name        Dracula theme for Instagram
+@author      m4thewz
+@description Dark theme for Instagram
+@version     0.1
+*/
+
+body {
+  background: rgb(40, 42, 54) !important;
+}
+
+svg {
+  fill: rgb(255, 255, 255) !important;
+}
+svg path,
+svg line,
+svg circle,
+svg polygon {
+  color: rgb(255, 255, 255) !important;
+}
+svg[fill="#ed4956"] {
+  fill: rgb(255, 85, 85) !important;
+}
+
+.-cx-PRIVATE-NavBar__logo__,
+.s4Iyt,
+.felixSpriteProfileChannelNullState,
+.coreSpriteSaveNull,
+.coreSpriteTaggedNull,
+.coreSpriteLoggedOutWordmark,
+.coreSpriteKeyhole,
+.glyphsSpriteDirect__outline__24__grey_9,
+.glyphsSpriteFacebook_circle__outline__24__grey_9,
+.glyphsSpriteApp_instagram__outline__24__grey_9,
+.glyphsSpriteApp_messenger__outline__24__grey_9,
+.glyphsSpriteApp_twitter__outline__24__grey_9,
+.glyphsSpriteApp_whatsapp__outline__24__grey_9,
+.glyphsSpriteMail__outline__24__grey_9,
+.glyphsSpriteLink__outline__24__grey_9,
+.glyphsSpriteLocation__outline__24__grey_9,
+.glyphsSpriteCall__outline__24__grey_9,
+.glyphsSpriteFacebook_circle__outline__24__grey_9,
+.glyphsSpriteFriend_Follow,
+.coreSpriteDropdownArrowGrey9,
+.glyphsSpriteCamera__outline__24__grey_9,
+.glyphsSpriteLock__outline__24__grey_9,
+.glyphsSpriteDirect__outline__96,
+.glyphsSpriteCircle_add__outline__24__grey_9 {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+.instagram-dark-wrapper img {
+  filter: invert(100%);
+}
+
+.KPnG0 {
+  color: inherit !important;
+}
+.TOh1s {
+  display: none;
+}
+
+.MHDUK,
+.-cx-PRIVATE-ErrorPage__errorContainer__,
+.BAJFR input,
+.BAJFR textarea,
+.xJ4T9,
+.Ouy_P,
+.t3CGe,
+._7kTyW {
+  color: #f8f8f2 !important;
+}
+._8Pl3R a {
+  color: #6272a4 !important;
+}
+.QGPIr a {
+  color: #ba94f1 !important;
+}
+._6Rvw2.IhCmn.Igw0E.IwRSH.eGOV_._4EzTm.ItkAi {
+  background-color: #fff !important;
+}
+.IhCmn {
+  background-color: #262626 !important;
+}
+.lXJWB {
+  background-color: #292841 !important;
+}
+.-cx-PRIVATE-NavBar__root__ {
+  background-color: var(--background-tertiary) !important;
+}
+.-cx-PRIVATE-NavBar__username__,
+.-cx-PRIVATE-ErrorPage__errorContainer__ a,
+.-cx-PRIVATE-ErrorPage__errorContainer__ a:visited {
+  color: rgb(0, 149, 246) !important;
+}
+
+.-cx-PRIVATE-Photo__clickShield,
+.p68,
+._ovg3g,
+._rcw2i,
+._si7dy,
+._9AhH0 {
+  display: none;
+}
+li img {
+  z-index: 999;
+}
+.qbCDp .Igw0E {
+  display: inline;
+}
+
+:root {
+  --b3f: var(--background-primary) !important;
+  --d87: var(--background-tertiary) !important;
+  --eca: var(--background-tertiary) !important;
+  --f23: var(--background-secondary) !important;
+  --i1d: 255, 255, 255 !important;
+  --f75: 255, 255, 255 !important;
+  --ce3: var(--background-accent) !important;
+  --b38: var(--background-accent) !important;
+  --b6a: var(--background-accent) !important;
+  --ca6: var(--background-accent) !important;
+  --bb2: var(--background-accent) !important;
+  --fe0: 88, 86, 140 !important;
+  --background-primary: 40, 42, 54;
+  --background-secondary: 36, 35, 56;
+  --background-secondary-alt: #3c3a5e;
+  --background-tertiary: 28, 27, 41;
+  --background-accent: 65, 67, 79;
+  --background-floating: #15141e;
+}
